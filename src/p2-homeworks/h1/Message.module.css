@@ -1,3 +1,30 @@
-.message {
+.conteiner {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+}
 
+.avatar {
+    height: 60px;
+    width: 60px;
+
+}
+.name {
+    font-size: 15px;
+}
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.message {
+    min-width: 150px;
+    max-width: 250px;
+}
+
+.text {
+    padding: 10px;
+    border-radius: 5px 5px 5px 0;
+    background-color: aquamarine;
 }
