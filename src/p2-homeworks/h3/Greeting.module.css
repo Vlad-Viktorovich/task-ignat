@@ -1,7 +1,13 @@
-.someClass {
+.greeting * {
+    margin-right: 10px;
+    font-weight: bold;
+}
 
+.success {
+    border: 2px solid green;
 }
 
 .error {
-    border: 1px solid red;
+    border: 2px solid red;
+    background-color: darksalmon;
 }

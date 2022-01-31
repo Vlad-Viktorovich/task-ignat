@@ -1,3 +1,33 @@
-.someClass {
+.affairs {
+}
 
+.affair {
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.affair div:nth-child(1) {
+    width: 250px;
+}
+
+.affair div:nth-child(2) {
+    width: 100px;
+}
+
+.affairs button {
+    padding: 5px 30px;
+    margin-right: 5px;
+    border-radius: 3px;
+    border: 0;
+    background-color: gold;
+    cursor: pointer;
+    color: darkcyan;
+    font-weight: bold;
+    transition: .4s ease;
+}
+
+.affairs button:hover {
+    background-color: #f9f2ba;
+    transform: scale(1.05);
 }

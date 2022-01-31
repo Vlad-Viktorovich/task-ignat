@@ -1,41 +1,28 @@
-.button_default {
-    color: black;
-    text-decoration: none;
-    user-select: none;
-    background: rgb(215, 214, 214);
-    padding: .5em 1.5em;
-    outline: none;
-    border: 0.01em solid #b1b1b1;
-    border-radius: 10px;
-    font-size: 14px;
-    font-weight: bold;
+.default,
+.red {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-color: #f5df3d;
+    cursor: pointer;
+    min-width: 150px;
+    transition: .4s ease;
 }
 
-.button_red {
-    color: black;
-    text-decoration: none;
-    user-select: none;
-    background: rgb(239, 15, 0);
-    padding: .5em 1.5em;
-    outline: none;
-    border: 1px solid #bf7c7c;
-    border-radius: 10px;
-    font-size: 14px;
-    font-weight: bold;
+.red {
+    background-color: red;
+    color: white;
 }
 
-.button_red:hover {
-    background: rgb(255, 78, 66);
+.default:hover,
+.red:hover {
+    transform: scale(1.05);
 }
 
-.button_red:active {
-    background: rgb(255, 140, 125);
-}
-
-.button_default:hover {
-    background: rgb(196, 196, 196);
-}
-
-.button_default:active {
-    background: rgb(112, 112, 112);
+.default:disabled {
+    background-color: #f6efc3;
+    color: grey;
 }
