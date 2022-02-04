@@ -1,5 +1,9 @@
+.wrapper {
+    display: flex;
+}
+
 .dark {
-    background: dimgrey;
+    background: #444343;
 }
 
 .dark-text {
@@ -7,17 +11,17 @@
 }
 
 .red {
-    background: lightcoral;
+    background: #720101;
 }
 
 .red-text {
     color: aqua;
 }
 
-.some {
-    background: lightgreen;
+.default {
+    background: inherit;
 }
 
-.some-text {
-    color: darkslateblue;
+.default-text {
+    color: goldenrod;
 }
